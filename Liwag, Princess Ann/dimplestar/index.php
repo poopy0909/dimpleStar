@@ -39,7 +39,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 </div>
                 <div style="margin:0px auto;max-width:1024px;">
                     <div id="amazingslider-1">
-                        <ul class="amazingslider-slides" style="display:none;">
+                        <ul class="amazingslider-slides">
                         <li><img src="slide/images/b1.png" /> </li>
                         <li><img src="slide/images/b2.png" /></li>
                         <li><img src="slide/images/b3.png" /></li>
@@ -55,16 +55,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
         Block 1 lot 10, southpoint Subd.<br>
         Brgy Banay-Banay, Cabuyao, Laguna
     </div>
-</div>
+</div>  
 
-    <div id="right">
-        <h3> Date today: <?php include_once("php_includes/date_time.php"); ?></h3>
-    </div>            
-                <div class="column-clear"></div>
-            </div>
-                <div class="clearfix"></div>
-        </div>
-    </div>    
+
 <div id="footer">
     <a href="index.php"><img src="images/logo.png" alt="Dimple Star Transport" class="logo-img"></a>
     <p>&copy;Dimple Star Transport<br /></p>
